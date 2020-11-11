@@ -1,0 +1,15 @@
+Activate venv: 
+..\venv\Scripts\activate
+
+Train RASA Core:
+rasa train -vv -dump-stories --force
+
+Run action-endpoint:
+rasa run actions
+
+Run shell:
+rasa run shell
+
+
+Interactive learing:
+rasa interactive
